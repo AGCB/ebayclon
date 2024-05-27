@@ -1,5 +1,6 @@
 "use client"
 
+import SimilarProducts from "@/app/components/SimilarProducts"
 import MainLayout from "@/app/layouts/MainLayout"
 
 export default function Product({params}) {
@@ -65,6 +66,7 @@ export default function Product({params}) {
                         </div>
                     </div>
                 </div>
+                <SimilarProducts />
             </MainLayout>
         </>
     )
