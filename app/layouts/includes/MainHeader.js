@@ -25,9 +25,13 @@ const renderSearchBar = () => {
                         <input
                             className="w-full text-left placeholder-gray-400 text-sm pl-3 focus:outline-none"
                             placeholder="search for anything"
-                            type="text">
-                        </input>
+                            type="text"
+                        />
                     </div>
+
+                    <button className="flex item-center bg-blue-600 text-sm font-semibold text-white p-[11px] ml-2 px-14">
+                        Search
+                    </button>
                 </div>
             </div>
         </div>
