@@ -85,8 +85,8 @@ const renderMenuRight = () => {
 export default function TopMenu() {
     return (
         <>
-            <div id="TopMenu" className="border-b">
-                <div className="flex items-center justify-between w-full mx-auto max-w-[1200px]">
+            <div id="TopMenu" className="">
+                <div className="flex items-center justify-between mx-auto  border-5">
                     {renderMenuLeft()}
                     {renderMenuRight()}
                 </div>

@@ -1,9 +1,6 @@
 "use client"
 import Link from "next/link"
 
-import { AiOutlineSearch } from "react-icons/ai"
-import { BiLoaderCircle } from "react-icons/bi"
-
 const renderBayLogo = () => {
     return (
         <Link href="/">
