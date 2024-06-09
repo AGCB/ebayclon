@@ -18,9 +18,9 @@ export default function Address() {
                         <div className="mb-4">
                             <TextInput 
                                 className="w-full"
-                                string={'TEST'}
+                                string={''}
                                 placeholder="name"
-                                error="this is an error!!"/>
+                                error="insert error here as prop to <TextInput/> "/>
                         </div>
                         <button  className="
                             mt-6

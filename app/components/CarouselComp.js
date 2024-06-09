@@ -11,7 +11,7 @@ export default function CarouselComp() {
                 showArrows={true}
                 autoPlay={true}
                 interval={3000}
-                infiniteLoop={true}
+                infiniteLoop={false}
                 showThumbs={false}
             >
                 <div>
